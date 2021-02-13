@@ -31,7 +31,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `company` (
   `NAME` varchar(50) NOT NULL,
-  `ADDRESS` varchar(50) NOT NULL,
+  `ADDRESS` varchar(100) NOT NULL,
   `PHONE` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -41,7 +41,7 @@ CREATE TABLE `company` (
 
 INSERT INTO `company` (`NAME`, `ADDRESS`, `PHONE`) VALUES
 ('Cipla', 'Mumbai', '12903'),
-('Sun Pharma', 'Mysore', '01289078443'),
+('Sun Pharma', 'Delhi', '01289078443'),
 ('Med_City', 'Nellore', '010114367832');
 
 -- --------------------------------------------------------
